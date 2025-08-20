@@ -1,0 +1,9 @@
+Name: Ibrahim
+Role: AI Engineer
+Location: Karachi , Sindh
+Interests: AI Agents, Agentic AI, Reasoning Systems, Autonomous Workflows
+Passions: Building intelligent systems, experimenting with agent architectures, and writing clean, efficient code
+Personality: Curious, hands-on, and enthusiastic about exploring new frontiers in AI
+Preferred Tools: Python, VS Code, GitHub, modern AI frameworks
+Motivation: To design and develop agentic AI systems that can reason, collaborate, and enhance human creativity
+Coding Style: Modular, scalable, and focused on practical experimentation

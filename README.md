@@ -1,15 +1,54 @@
-📌 Project Description
+# IntelligentReasoningAssistant Crew
 
-This project is an Intelligent Reasoning Assistant, initially scaffolded with Crew AI but heavily customized and developed by me. While Crew AI provided the initial structure, I wrote most of the functionality by hand — updating the codebase, fixing issues, and restructuring the project so it works as a clean, self-contained AI agent.
+Welcome to the IntelligentReasoningAssistant Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
-The assistant is designed to:
+## Installation
 
-Perform step-by-step reasoning to solve problems logically.
+Ensure you have Python >=3.10 <3.14 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
 
-Engage in natural conversations with users.
+First, if you haven't already, install uv:
 
-Use a modular, extensible design that makes it easy to add tools and new features.
+```bash
+pip install uv
+```
 
-Run locally in VS Code without depending on Crew AI internals.
+Next, navigate to your project directory and install the dependencies:
 
-I focused on making this project feel hand-built and professional, with well-structured Python code, clear configuration files, and easy integration into GitHub. The result is a project that demonstrates not only AI capabilities, but also my skills in software engineering, agent design, and clean code practices.
+(Optional) Lock the dependencies and install them by using the CLI command:
+```bash
+crewai install
+```
+### Customizing
+
+**Add your `OPENAI_API_KEY` into the `.env` file**
+
+- Modify `src/intelligent_reasoning_assistant/config/agents.yaml` to define your agents
+- Modify `src/intelligent_reasoning_assistant/config/tasks.yaml` to define your tasks
+- Modify `src/intelligent_reasoning_assistant/crew.py` to add your own logic, tools and specific args
+- Modify `src/intelligent_reasoning_assistant/main.py` to add custom inputs for your agents and tasks
+
+## Running the Project
+
+To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+
+```bash
+$ crewai run
+```
+
+This command initializes the intelligent_reasoning_assistant Crew, assembling the agents and assigning them tasks as defined in your configuration.
+
+This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+
+## Understanding Your Crew
+
+The intelligent_reasoning_assistant Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+
+## Support
+
+For support, questions, or feedback regarding the IntelligentReasoningAssistant Crew or crewAI.
+- Visit our [documentation](https://docs.crewai.com)
+- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
+- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
+- [Chat with our docs](https://chatg.pt/DWjSBZn)
+
+Let's create wonders together with the power and simplicity of crewAI.

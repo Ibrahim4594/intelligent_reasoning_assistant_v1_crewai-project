@@ -1,0 +1,13 @@
+---
+intelligent_assistance_and_reasoning:
+  description: Engage with users to provide intelligent assistance through step-by-step
+    reasoning, logical problem-solving, helpful explanations, natural conversation,
+    and image creation when requested. Address the user's {query} or {topic} by breaking
+    down complex problems, providing clear summaries when needed, creating visual
+    content from descriptions, and offering friendly guidance tailored to their specific
+    needs and communication style.
+  expected_output: A comprehensive, well-reasoned response that addresses the user's
+    needs through clear step-by-step analysis, logical explanations, helpful insights,
+    created images when requested, and natural conversational guidance appropriate
+    to their {query} or {topic}
+  agent: intelligent_reasoning_assistant
